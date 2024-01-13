@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo-db
+    driverClassName: org.postgresql.Driver
+    username: admin
+    password: admin
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+server:
+  servlet:
+    context-path: /api
+  port: 1010
